@@ -1,0 +1,92 @@
+.jumbotron{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    /* background-image:url(/img/fondo2.jpg); */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    padding-right: 0;
+}
+.calzado{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 100px;
+}
+.calzado img{
+    height: 300px;
+    padding-right:20%;
+}
+.principal h1{
+    color: white;
+    padding-bottom: 40px;
+    font-size: 60px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.principal h4{
+    color: purple;
+    font-size: 24px;
+    padding-bottom: 20px;
+
+}
+.principal h3{
+    color: purple;
+    font-size: 15px;
+
+}
+.principal h3 a{
+    text-decoration: none;
+    color: violet;
+}
+.color{
+    color:violet;
+}
+.contacto{
+    height: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.correo{
+    border-radius: 20px;
+    background-color: whitesmoke;
+    height: 100%;
+    padding: 0 5vh;
+    height: 40px;
+    width: 80vh;
+    border:2px  violet solid;
+    color:purple;
+    font-size: 20px;
+    outline:rgba(0, 0, 0, 0); 
+    
+}
+.enviar{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: violet;
+    outline:rgba(0, 0, 0, 0); 
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+.enviar:hover{
+    background-color:purple;
+}
