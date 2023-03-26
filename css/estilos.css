@@ -5,6 +5,7 @@
 }
 body{
     font-family: sans-serif, arial;
+    background-color: white;
 }
 header{
     background-color:#2b064d;
@@ -35,4 +36,18 @@ header{
 nav a:hover{
     color: #ab90b9;
     border-bottom: 0.2em solid #ff00ff;
+}
+.separador{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    color: #2b064d;
+    background-color: white;
+}
+.separador h1{
+    border:2px #ff00ff solid;
+    padding: 0 20px;
+
 }

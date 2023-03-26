@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/catalogo.css">
 </head>
 <body>
     <header> 
@@ -22,7 +23,7 @@
             </nav>
         </div>    
     </header>
-    <div class="jumbotron">
+    <div class="jumbotron" id="inicio">
         <div class="principal">
             <h1> Felicidad es... <br>lucir el mejor calzado</h1>
         
@@ -38,48 +39,66 @@
         
     </div>
     <!--catlogo de calzado-->
+    <div class="separador">
+        <h1>LO MÁS NUEVO</h1>
+    </div>
     <main class="contenedor">
-        <div class="contenedor-catalogo">
-			<div class="card" style="background-image: url('./img/1.jpg')">
-				<div class="textos">
-					<h3>Tacos de pastor</h3>
-					<p>$11.00</p>
-				</div>
-			</div>
-			<div class="card" style="background-image: url('./img/2.jpg')">
-				<div class="textos">
-					<h3>Tacos de tripa</h3>
-					<p>$11.00</p>
-				</div>
-			</div>
-			<div class="card" style="background-image: url('./img/3.jpg')">
-				<div class="textos">
-					<h3>Tacos de suadero</h3>
-					<p>$11.00</p>
-				</div>
-			</div>
+        
+            <div class="banner" style="background-image: url(/img/catalogo/principal.jpg);">
+            </div>
+            <div class="contenedor-promo">
+                <div class="card">
+                    <img src="/img/catalogo/1.jpg" alt="">
+                    
+                    <div class="pie">
+                        <h1>Nike Zoom LeBron 20 x Faze Clan <br><span>el mejor soporte para la suela</span> </h1>
+                        <button class="boton">ecomprar</button>
+                    </div>
+                    
+                </div>
+                <div class="card">
+                    <img src="/img/catalogo/2.jpg" alt="">
+                    
+                    <div class="pie">
+                        <h1>Air Max <br><span>luce tus mejores outfits con los diferentes estilos de aire</span> </h1>
+                        <button class="boton">Ver más</button>
+                    </div>
+                    
+                   
+                </div>
 
-			<div class="card" style="background-image: url('./img/4.jpg')">
-				<div class="textos">
-					<h3>Tacos de lengua</h3>
-					<p>$18.00</p>
-				</div>
-			</div>
-			<div class="card" style="background-image: url('./img/5.jpg')">
-				<div class="textos">
-					<h3>Tacos de campechanos</h3>
-					<p>$15.00</p>
-				</div>
-			</div>
-			<div class="card" style="background-image: url('./img/6.jpg')">
-				<div class="textos">
-					<h3>Tacos de cabeza</h3>
-					<p>$12.00</p>
-				</div>
-			</div>
-
-		</div>
+            </div>
 
     </main>
+    <div class="separador">
+        <h1>ENCUENTRA POR GÉNERO</h1>
+    </div>
+    <div class="categoria">
+        <div class="seccion">
+            <img src="/img/categoria/hombres.webp" alt="">
+            <h1> Ir a hombres</h1>
+        </div>
+        <div class="seccion">
+            <img src="/img/categoria/mujeres.webp" alt="">
+            <h1> Ir a mujeres</h1>
+        </div>
+        <div class="seccion">
+            <img src="/img/categoria/niños.jpg" alt="">
+            <h1> Ir a niños</h1>
+        </div>
+    </div>
+    <div class="separador">
+        <h1>Te ayudamos a elegir</h1>
+    </div>
+    <div class="ayuda">
+        <div><img src="/img/fondo2.jpg" alt=""></div>
+        <div class="texto">
+            <h1>cuentanos que estilo se adapta mejor a tí y nosotros te ayudamos a conseguir lo que buscas</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur molestias, tempore esse voluptate autem, sequi natus cumque non earum ut possimus ducimus minima illum pariatur numquam eum reiciendis consequatur sit.</p>
+        <a href="#inicio">Contactanos</a>
+        </div>
+        
+    </div>
+
 </body>
 </html>

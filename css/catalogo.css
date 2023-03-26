@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.contenedor{
+    height: auto;
+    width: 100%;
+    display: flex;
+    background-color:black;
+}
+.banner{
+    height: 300px;
+    width: 100%;
+}
+.contenedor {
+    padding: 0 80px;
+	margin: auto;
+	display: flex; /*hace que el contenido se acomode dentro de la caja en columnas*/
+	gap: 10px;
+    flex-direction: column;
+
+}
+.contenedor-promo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    background-color: black;
+    height: 600px;
+}
+.card{
+    color: whitesmoke;
+    height: 500px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    text-align: center;
+    
+
+}
+.card img{
+    height: 300px;
+    padding-bottom: 20px;
+   
+}
+.pie{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    padding-top: 10px;
+    gap: 10px;
+}
+.pie span{
+    font-weight: normal;
+    color: #ce93d8;
+}
+.boton{
+    width: 120px;
+    border-radius: 10px;
+    background-color: #f3e5f5;
+    outline:rgba(0, 0, 0, 0); 
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid black;
+}
+.boton:hover{
+    background-color: #ce93d8;
+}
+
+/*encuentralo por categoria**/
+.categoria{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    /* background-color: black; */
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seccion img{
+    height: 300px;
+}
+.seccion h1{
+    font-size: 20px;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
+}
+.seccion h1:hover{
+    font-size: 21px;
+    cursor: pointer;
+}
+
+
