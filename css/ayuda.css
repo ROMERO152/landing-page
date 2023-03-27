@@ -1,0 +1,30 @@
+.ayuda{
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-image: url(/img/fondo1.jpg);
+    background-size: cover;
+}
+.texto{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 20vh;
+    color: blueviolet;
+    gap: 20px;
+    padding: 0 200px;
+}
+.ayuda img{
+    height: 500px;
+}
+.texto a{
+    background-color: #ba68c8;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}

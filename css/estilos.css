@@ -5,10 +5,10 @@
 }
 body{
     font-family: sans-serif, arial;
-    background-color: white;
+    background-color: black;
 }
 header{
-    background-color:#2b064d;
+    background-color:#4a148c;
     position: fixed;
     width: 100%;
 }

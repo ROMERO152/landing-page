@@ -1,0 +1,16 @@
+#pie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.pie-pagina{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid #4a148c 1px;
+    height: 50px;
+    color: white;
+     
+}
