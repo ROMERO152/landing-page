@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ROMERO</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/jumbotron.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,35 +18,35 @@
 <body>
     <header> 
         <div class="menu">
-            <img src="img/logoweb.png" alt="">
+            <img src="img/logoweb.png" alt="logotipo">
             <nav class="menu-nav">
-                <a href="#">Inicio</a>
-                <a href="#">Contacto</a>
-                <a href="#">¿Quíenes somos?</a>
+                <a href="#inicio">Inicio</a>
+                <a href="#inicio">Contacto</a>
+                <a href="#loNuevo">Lo mas nuevo</a>
             </nav>
         </div>    
     </header>
+    <!--pagina principal entrada-->
     <div class="jumbotron" id="inicio">
         <div class="principal">
             <h1> Felicidad es... <br>lucir el mejor calzado</h1>
         
-            <h4>¡Aun no sabes que calzado elegir!, <span class="color">"Nosotros te ayudamos".</span> </h4>
-            <div class="contacto">
-                <input class="correo" type="text" placeholder="Ingresa tu correo">
-                <input class="enviar" type="submit">
+            <h4>¡Aun no sabes que calzado elegir!, <span >"Nosotros te ayudamos".</span> </h4>
+            <div id="contacto">
+                <input class="correo" type="text" placeholder="Ingresa tu correo electrónico...">
+                <button class="enviar" type="submit">enviar</button>
+                <!-- <input class="enviar" type="submit"> -->
             </div>
-            <h3>envianos tu correo electronico y te contactamos en menos de 24 horas. <br><a href="#">conoce nuestros terminos y condiciones.</a></h1>
-            
+            <h3>envianos tu correo electronico y te contactamos en menos de 24 horas. <br><a href="#"> <span>conoce nuestros terminos y condiciones.</span></a></h1>
         </div>
-        <div class="calzado"><img src="img/zapato.webp" alt=""></div>
-        
+        <div class="calzado"><img src="img/zapato.jpg" alt=""></div>
     </div>
+
     <!--catlogo de calzado-->
-    <div class="separador">
+    <div class="separador" id="loNuevo">
         <h1>LO MÁS NUEVO</h1>
     </div>
-    <main class="contenedor">
-        
+    <main class="contenedor">  
             <div class="banner" style="background-image: url(img/catalogo/principal.jpg);">
             </div>
             <div class="contenedor-promo">
@@ -55,24 +55,22 @@
                     
                     <div class="pie">
                         <h1>Nike Zoom LeBron 20 x Faze Clan <br><span>el mejor soporte para la suela</span> </h1>
-                        <button class="boton">ecomprar</button>
+                        <button class="boton">Comprar</button>
                     </div>
-                    
                 </div>
                 <div class="card">
                     <img src="img/catalogo/2.jpg" alt="">
                     
                     <div class="pie">
-                        <h1>Air Max <br><span>luce tus mejores outfits con los diferentes estilos de aire</span> </h1>
+                        <h1>Air Max <br><span>luce tus mejores outfits.</span> </h1>
                         <button class="boton">Ver más</button>
                     </div>
-                    
-                   
                 </div>
-
             </div>
-
     </main>
+
+    <!--categorias-->
+
     <div class="separador">
         <h1>ENCUENTRA POR GÉNERO</h1>
     </div>
@@ -82,7 +80,7 @@
             <h1> Ir a hombres</h1>
         </div>
         <div class="seccion">
-            <img src="img/categoria/mujeres.webp" alt="">
+            <img src="/img/categoria/mujeres.webp" alt="">
             <h1> Ir a mujeres</h1>
         </div>
         <div class="seccion">
@@ -93,21 +91,24 @@
     <div class="separador">
         <h1>Te ayudamos a elegir</h1>
     </div>
+
+    <!--seccion de ayuda-->
     <div class="ayuda">
-        <div><img src="img/fondo2.jpg" alt=""></div>
+        <div><img src="img/fondo2.jpg" alt="imagen de cristiano ronaldo"></div>
         <div class="texto">
             <h1>Cuentanos que estilo se adapta mejor a tí y nosotros te ayudamos a conseguir lo que buscas</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur molestias, tempore esse voluptate autem, sequi natus cumque non earum ut possimus ducimus minima illum pariatur numquam eum reiciendis consequatur sit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur molestias, tempore esse voluptate autem, sequi natus cumque non earum ut possimus ducimus minima illum pariatur numquam eum reiciendis consequatur sit.</p>
+        <div class="separador"></div>
         <a href="#inicio">Contactanos</a>
         </div>
         
     </div>
     <div id="pie">
-            <footer class="pie-pagina"><h4>LO MEJOR EN CALZADO</h4></footer>
             <footer class="pie-pagina">
+                <h4>LO MEJOR EN CALZADO</h4>
                 <h5> © 2023 Calzado, todos los derechos reservados,esta es una pagina de prueva. </h5>
             </footer>
-    </div>
+    </div> 
 
 
 </body>

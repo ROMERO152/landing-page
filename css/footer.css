@@ -5,12 +5,12 @@
 
 }
 .pie-pagina{
-    background-color:black;
-    display: flex;
+    background: rgb(74, 20, 140,0.4);
+    display:flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    border: solid #4a148c 1px;
+    text-align: center;
     height: 50px;
     color: white;
      
-}
+} 

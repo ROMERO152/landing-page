@@ -1,59 +1,30 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
+
 .contenedor{
     height: auto;
     width: 100%;
-    display: flex;
-    background-color:black;
+    padding: 20px 40px;
 }
 .banner{
     height: 300px;
-    width: 100%;
-}
-.contenedor {
-    padding: 0 80px;
-	margin: auto;
-	display: flex; /*hace que el contenido se acomode dentro de la caja en columnas*/
-	gap: 10px;
-    flex-direction: column;
-
 }
 .contenedor-promo{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 100%;
-    background-color: black;
+    place-items: center;
+    background-color: rgb(0, 0, 0);
     height: 600px;
+    padding: 0px 30px;
 }
 .card{
-    color: whitesmoke;
-    height: 500px;
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
     text-align: center;
-    
-
 }
 .card img{
-    height: 300px;
-    padding-bottom: 20px;
-   
+    height: 340px;
+    padding-bottom: 20px; 
 }
 .pie{
-    font-size: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: gray;
+    font-size: 14px;
     padding-top: 10px;
-    gap: 10px;
 }
 .pie span{
     font-weight: normal;
@@ -61,46 +32,41 @@
 }
 .boton{
     width: 120px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: #f3e5f5;
+    border: none;
     outline:rgba(0, 0, 0, 0); 
     font-size: 18px;
     color: black;
     font-weight: bold;
     padding: 10px;
-    border: 2px solid black;
 }
 .boton:hover{
-    background-color: #ce93d8;
+    background-color: purple;
+    color: white;
+    box-shadow: rgb(71, 70, 70) 0px 0px 20px;
+    border: none;
 }
 
 /*encuentralo por categoria**/
-.categoria{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 20px;
-    /* background-color: black; */
-}
-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ .categoria{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    padding: 20px 0px;
+} 
+.seccion{
+    background-color: #4a148c;
+    border: 2px solid gray;
+    height: 270px;
+    display:grid;
+    text-align: center;
+    font-size: 12px;
 }
 .seccion img{
-    height: 300px;
-}
-.seccion h1{
-    font-size: 20px;
-    color: white;
-    font-weight: normal;
-    text-align: center;
-    padding: 10px;
-    text-decoration: underline;
+    height: 230px;
 }
 .seccion h1:hover{
-    font-size: 21px;
     cursor: pointer;
+    text-decoration: underline;
 }
-
-
