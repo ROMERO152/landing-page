@@ -1,10 +1,10 @@
-/* movil
+/* movil*/
 @media screen and (max-width: 767px) {
-    /* .menu{
+    .menu{
         display: flex;
         height: 40px;
-    } */
-    /*.menu img{
+    } 
+    .menu img{
         display: none;
     }
     .menu{
@@ -70,11 +70,11 @@
 
     }
 
-}*/
+}
 
 
   /* pantallas 768px-991px */
-/*@media screen and (min-width: 768px) and (max-width: 991px){
+@media screen and (min-width: 768px) and (max-width: 991px){
     .menu img{
         display: none;
     }
@@ -145,4 +145,4 @@
     }
 
 }
- */*/
+ 
